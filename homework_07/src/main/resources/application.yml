@@ -1,0 +1,14 @@
+server:
+  port: 8080 # Порт сервера
+  error:
+    include-message: always # Выводить сообщение в отловленной ошибке
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:4231/homework
+    username: root-user
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
