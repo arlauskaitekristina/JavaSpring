@@ -1,4 +1,5 @@
-package ru.gb;
+package spring;
+
 
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
@@ -8,11 +9,11 @@ import org.springframework.cloud.client.loadbalancer.reactive.ReactorLoadBalance
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.*;
 import reactor.core.publisher.Mono;
-import ru.gb.api.Book;
+
 
 import java.util.List;
 import java.util.UUID;
-import java.util.concurrent.ThreadLocalRandom;
+
 
 @Service
 public class BookProvider {
@@ -26,21 +27,30 @@ public class BookProvider {
 
   public BookProvider(ReactorLoadBalancerExchangeFilterFunction loadBalancerExchangeFilterFunction) {
     webClient = WebClient.builder()
-      .filter(loadBalancerExchangeFilterFunction)
-      .build();
+            .filter(loadBalancerExchangeFilterFunction)
+            .build();
 //    this.eurekaClient = eurekaClient;
   }
 
   public UUID getRandomBookId() {
     Book randomBook = webClient.get()
-      .uri("http://book-service/api/book/random")
-      .retrieve()
-      .bodyToMono(Book.class)
-      .block();
+            .uri("http://book-service/api/book/random")
+            .retrieve()
+            .bodyToMono(Book.class)
+            .block();
 
     return randomBook.getId();
   }
 
+  public Book getRandomBook() {
+    Book randomBook = webClient.get()
+            .uri("http://book-service/api/book/random")
+//      .uri(getBookServiceIp() + "/api/book/random")
+            .retrieve()
+            .bodyToMono(Book.class)
+            .block();
+    return randomBook;
+  }
   // round robbin
 //  private String getBookServiceIp() {
 //    Application application = eurekaClient.getApplication("BOOK-SERVICE");
