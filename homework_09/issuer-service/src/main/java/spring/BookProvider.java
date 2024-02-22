@@ -1,4 +1,4 @@
-package ru.gb;
+package spring;
 
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;

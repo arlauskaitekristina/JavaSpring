@@ -1,4 +1,4 @@
-package ru.gb.api;
+package spring.api;
 
 import com.github.javafaker.Faker;
 import org.springframework.web.bind.annotation.GetMapping;

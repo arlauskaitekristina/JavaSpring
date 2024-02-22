@@ -1,4 +1,4 @@
-package ru.gb.api;
+package spring;
 
 import lombok.Data;
 
