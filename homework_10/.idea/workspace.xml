@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad6fcc3d-c3b4-4d45-9119-8d4f387102b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BookMicroService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscoveryMicroService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IssuanceMicroService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryModels/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReaderMicroService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebMicroService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/api/src/main/java/spring/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/api/src/main/java/spring/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/api/src/main/java/spring/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/api/src/main/java/spring/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/book-service/src/main/java/spring/BookApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/book-service/src/main/java/spring/BookApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/book-service/src/main/java/spring/api/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/book-service/src/main/java/spring/api/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/discovery-service/src/main/java/spring/DiscoveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/discovery-service/src/main/java/spring/DiscoveryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/issuer-service/src/main/java/spring/BookProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/issuer-service/src/main/java/spring/BookProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/issuer-service/src/main/java/spring/IssuerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/issuer-service/src/main/java/spring/IssuerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/issuer-service/src/main/java/spring/api/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/issuer-service/src/main/java/spring/api/Issue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework_09/issuer-service/src/main/java/spring/api/IssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../homework_09/issuer-service/src/main/java/spring/api/IssueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookMicroService/src/main/java/spring/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookMicroService/src/main/java/spring/services/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookMicroService/src/test/java/spring/BookControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookMicroService/src/test/java/spring/BookControllerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -45,6 +36,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Кристина/Downloads/HW_JavaSpring_10-main",
     "onboarding.tips.debug.path": "C:/Users/Кристина/Desktop/VS_Code/JavaSpring/homework_10/src/main/java/spring/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",

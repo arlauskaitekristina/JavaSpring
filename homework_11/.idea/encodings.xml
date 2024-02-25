@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BookMicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DiscoveryMicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IssuanceMicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LibraryModels/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ReaderMicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebMicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebPageMicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-logger-execution-time-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

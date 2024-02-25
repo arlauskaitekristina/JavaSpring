@@ -1,4 +1,4 @@
-package spring;
+package ru.fsv67;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,7 +10,7 @@ import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.reactive.server.WebTestClient;
-import spring.repositories.BookRepository;
+import ru.fsv67.repositories.BookRepository;
 
 import java.util.List;
 import java.util.Objects;
@@ -36,7 +36,6 @@ public class BookControllerTests {
         Book book = bookRepository.save(new Book("Book test"));
 
         JUnitBook responseBook = webTestClient.get()
-
                 .uri("/book/" + book.getId())
                 .exchange()
                 .expectStatus().isOk()
